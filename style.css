@@ -1,0 +1,43 @@
+/* === Base styles (desktop) === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #000000; /* black background */
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #ffffff;   /* white border */
+  background: rgb(68, 255, 0); /* bright green background */
+}
+
+h1 {
+  font-size: 50px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* === Mobile adjustments (for screens <= 600px) === */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px; /* smaller title on small screens */
+  }
+
+  canvas {
+    width: 95% !important;   /* shrink canvas to fit phone screen */
+    height: auto !important; /* keep aspect ratio */
+    border: 1px solid #ffffff; /* slightly thinner border */
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+
+  
+  
+  
