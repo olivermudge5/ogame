@@ -1,1 +1,2 @@
-Hey there this is my cool ame.
+<span style="color: blue;">This text will be blue.</span>
+<span style="background-color: yellow; color: black;">This text has a yellow background.</span>
